@@ -1,7 +1,7 @@
 {
-  "name": "angular-template",
-  "description": "",
-  "homepage": "https://stackblitz.com/edit/landoftherair-weapongen",
+  "name": "itemgen",
+  "description": "An item generator for rair.land",
+  "homepage": "https://itemgen.rair.land",
   "dependencies": {
     "@angular/animations": "^5.0.0",
     "@angular/common": "5.0.0",
