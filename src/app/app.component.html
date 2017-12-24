@@ -1,0 +1,88 @@
+<img class="hidden" src="https://play.rair.land/assets/items.png" />
+
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Land of the Rair Item Generator</a>
+</nav>
+
+<div class="container">
+
+  <div class="row mt-3">
+    <div class="col-5">
+
+      <div class="row">
+        <div class="col">
+          <strong>Item Type</strong>
+          <div>
+            <select class="form-control" (change)="selectItem($event)">
+              <option selected default disabled>Select an Item Type</option>
+              <option *ngFor="let item of data">{{ item.name }}</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3" *ngIf="item">
+        <div class="col">
+          <strong>Name</strong>
+          <div>
+            <input type="text" class="form-control" [(ngModel)]="item.name" (keyup)="updateYML()" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3" *ngIf="item">
+        <div class="col">
+          <strong>Description</strong>
+          <div>
+            <input type="text" class="form-control" [(ngModel)]="item.desc" (keyup)="updateYML()" />
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-3" *ngIf="item">
+        <div class="col">
+          <strong>Value</strong>
+          <div>
+            <input type="number" class="form-control" [(ngModel)]="item.value" (keyup)="updateYML()" />
+          </div>
+        </div>
+
+        <div class="col">
+          <strong>Tier</strong>
+          <div>
+            <input type="number" min="1" class="form-control" [(ngModel)]="tier" (keyup)="updateTier()" />
+          </div>
+        </div>
+        
+      </div>
+
+      <div class="row mt-3" *ngIf="item">
+        <div class="col">
+          <strong>Sprite</strong>
+          <div class="row">
+            <div class="col-4">
+              <input type="number" class="form-control" [(ngModel)]="item.sprite" (keyup)="updateYML()" />
+            </div>
+
+            <div class="col-8">
+              <img class="item-sprite" src="https://play.rair.land/assets/items.png" [style.object-position]="spriteLocation" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-7 mt-3">
+      <div ace-editor 
+        #editor
+        mode="yaml"
+        [readOnly]="true"
+        [(text)]="itemYML"
+        [autoUpdateContent]="true"
+        style="min-height: 400px; width: 100%; overflow: auto;">
+      </div>
+    </div>
+  </div>
+
+</div>

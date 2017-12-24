@@ -1,0 +1,270 @@
+[
+  { "name": "Axe",
+    "type": "Axe",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 0,
+      "offense": 1,
+      "defense": 0
+    },
+    "baseDamage": 5,
+    "minDamage": 1,
+    "maxDamage": 3,
+    "damageRolls": 1
+  },
+  { "name": "Claws",
+    "type": "Martial",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 0,
+      "offense": 0,
+      "defense": 0
+    },
+    "baseDamage": 3,
+    "minDamage": 1,
+    "maxDamage": 2,
+    "damageRolls": 2
+  },
+  { "name": "Club",
+    "type": "Mace",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 0,
+      "offense": 1,
+      "defense": 1
+    },
+    "baseDamage": 1,
+    "minDamage": 1,
+    "maxDamage": 1,
+    "damageRolls": 1
+  },
+  { "name": "Crossbow",
+    "type": "Ranged",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 1,
+      "offense": 1,
+      "defense": 0
+    },
+    "baseDamage": 5,
+    "minDamage": 1,
+    "maxDamage": 2,
+    "damageRolls": 1
+  },
+  { "name": "Dagger",
+    "type": "Dagger",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 5,
+      "offense": 0,
+      "defense": 0
+    },
+    "isSackable": true,
+    "baseDamage": 5,
+    "minDamage": 1,
+    "maxDamage": 2,
+    "damageRolls": 1
+  },
+  { "name": "Flail",
+    "type": "Mace",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": -2,
+      "offense": 1,
+      "defense": 0
+    },
+    "baseDamage": 10,
+    "minDamage": 1,
+    "maxDamage": 7,
+    "damageRolls": 1
+  },
+  { "name": "Gloves",
+    "type": "Martial",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 3,
+      "offense": 1,
+      "defense": 1
+    },
+    "baseDamage": 5,
+    "minDamage": 2,
+    "maxDamage": 4,
+    "damageRolls": 1
+  },
+  { "name": "Greataxe",
+    "type": "Axe",
+    "secondaryType": "Twohanded",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 1,
+      "offense": 2,
+      "defense": 0
+    },
+    "baseDamage": 9,
+    "minDamage": 2,
+    "maxDamage": 5,
+    "damageRolls": 2
+  },
+  { "name": "Greatmace",
+    "type": "Mace",
+    "secondaryType": "Twohanded",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": -1,
+      "offense": 1,
+      "defense": 0
+    },
+    "baseDamage": 11,
+    "minDamage": 1,
+    "maxDamage": 3,
+    "damageRolls": 2
+  },
+  { "name": "Greatsword",
+    "type": "Twohanded",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": -2,
+      "offense": 3,
+      "defense": 0
+    },
+    "baseDamage": 9,
+    "minDamage": 1,
+    "maxDamage": 5,
+    "damageRolls": 2
+  },
+  { "name": "Halberd",
+    "type": "Polearm",
+    "stats": {
+      "armorClass": 1,
+      "accuracy": 0,
+      "offense": 1,
+      "defense": 0
+    },
+    "baseDamage": 9,
+    "minDamage": 2,
+    "maxDamage": 5,
+    "damageRolls": 2
+  },
+  { "name": "Hammer",
+    "type": "Mace",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": -1,
+      "offense": 0,
+      "defense": 0
+    },
+    "baseDamage": 3,
+    "minDamage": 1,
+    "maxDamage": 2,
+    "damageRolls": 1
+  },
+  { "name": "Longbow",
+    "type": "Ranged",
+    "secondaryType": "Twohanded",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 1,
+      "offense": 0,
+      "defense": 0
+    },
+    "baseDamage": 8,
+    "minDamage": 1,
+    "maxDamage": 4,
+    "damageRolls": 2
+  },
+  { "name": "Longsword",
+    "type": "Onehanded",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 3,
+      "offense": 1,
+      "defense": 1
+    },
+    "baseDamage": 3,
+    "minDamage": 1,
+    "maxDamage": 15,
+    "damageRolls": 1
+  },
+  { "name": "Mace",
+    "type": "Mace",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": -1,
+      "offense": 2,
+      "defense": 0
+    },
+    "baseDamage": 7,
+    "minDamage": 1,
+    "maxDamage": 3,
+    "damageRolls": 1
+  },
+  { "name": "Shield",
+    "type": "Mace",
+    "stats": {
+      "armorClass": 4,
+      "accuracy": 0,
+      "offense": 0,
+      "defense": 0
+    },
+    "baseDamage": 1,
+    "minDamage": 1,
+    "maxDamage": 1,
+    "damageRolls": 1
+  },
+  { "name": "Shortbow",
+    "type": "Ranged",
+    "secondaryType": "Twohanded",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 3,
+      "offense": 0,
+      "defense": 0
+    },
+    "baseDamage": 10,
+    "minDamage": 1,
+    "maxDamage": 5,
+    "damageRolls": 1
+  },
+  { "name": "Shortsword",
+    "type": "Shortsword",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 3,
+      "offense": 1,
+      "defense": 1
+    },
+    "baseDamage": 7,
+    "minDamage": 1,
+    "maxDamage": 3,
+    "damageRolls": 1
+  },
+  { "name": "Staff",
+    "type": "Staff",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 0,
+      "offense": 0,
+      "defense": 0
+    },
+    "baseDamage": 6,
+    "minDamage": 1,
+    "maxDamage": 2,
+    "damageRolls": 1
+  },
+  { "name": "Wand",
+    "type": "Wand",
+    "stats": {
+      "armorClass": 0,
+      "accuracy": 0,
+      "offense": 0,
+      "defense": 0
+    },
+    "baseDamage": 3,
+    "minDamage": 1,
+    "maxDamage": 10,
+    "damageRolls": 1
+  },
+  {
+    "name": "Other"
+  }
+]
