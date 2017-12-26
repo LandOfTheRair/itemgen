@@ -45,11 +45,13 @@ export class AppComponent  {
   public updateTier() {
     [
       'stats.armorClass', 'stats.offense', 'stats.defense', 'stats.accuracy',
-      'baseDamage', 'minDamage', 'maxDamage', 'damageRolls'
+      'baseDamage', 'minDamage', 'maxDamage'
     ].forEach(key => {
       const value = get(this.baseItem, key);
       set(this.item, key, value * this.tier);
     });
+    
+    this.item.damageRolls = this.baseItem.damageRolls + this.tier;
 
     this.updateYML();
   }
