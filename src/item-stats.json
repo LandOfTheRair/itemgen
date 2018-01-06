@@ -136,6 +136,7 @@
     "type": "Polearm",
     "stats": {
       "armorClass": 1,
+      "weaponArmorClass": 1,
       "accuracy": 0,
       "offense": 1,
       "defense": 0
@@ -176,6 +177,7 @@
     "type": "Onehanded",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 2,
       "accuracy": 3,
       "offense": 1,
       "defense": 1
@@ -242,6 +244,7 @@
     "type": "Staff",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 1,
       "accuracy": 0,
       "offense": 0,
       "defense": 0
