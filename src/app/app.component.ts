@@ -44,7 +44,7 @@ export class AppComponent  {
 
   public updateTier() {
     [
-      'stats.armorClass', 'stats.offense', 'stats.defense', 'stats.accuracy',
+      'stats.armorClass', 'stats.offense', 'stats.defense', 'stats.accuracy', 'stats.weaponArmorClass',
       'baseDamage', 'minDamage', 'maxDamage'
     ].forEach(key => {
       const value = get(this.baseItem, key);
