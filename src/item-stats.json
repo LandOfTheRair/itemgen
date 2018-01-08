@@ -3,6 +3,7 @@
     "type": "Axe",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 0,
       "offense": 1,
       "defense": 0
@@ -16,6 +17,7 @@
     "type": "Martial",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 0,
       "offense": 0,
       "defense": 0
@@ -29,6 +31,7 @@
     "type": "Mace",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 0,
       "offense": 1,
       "defense": 1
@@ -42,6 +45,7 @@
     "type": "Ranged",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 1,
       "offense": 1,
       "defense": 0
@@ -55,6 +59,7 @@
     "type": "Dagger",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 5,
       "offense": 0,
       "defense": 0
@@ -69,6 +74,7 @@
     "type": "Mace",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": -2,
       "offense": 1,
       "defense": 0
@@ -82,6 +88,7 @@
     "type": "Martial",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 3,
       "offense": 1,
       "defense": 1
@@ -96,6 +103,7 @@
     "secondaryType": "Twohanded",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 1,
       "offense": 2,
       "defense": 0
@@ -110,6 +118,7 @@
     "secondaryType": "Twohanded",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": -1,
       "offense": 1,
       "defense": 0
@@ -123,6 +132,7 @@
     "type": "Twohanded",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": -2,
       "offense": 3,
       "defense": 0
@@ -150,6 +160,7 @@
     "type": "Mace",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": -1,
       "offense": 0,
       "defense": 0
@@ -164,6 +175,7 @@
     "secondaryType": "Twohanded",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 1,
       "offense": 0,
       "defense": 0
@@ -191,6 +203,7 @@
     "type": "Mace",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": -1,
       "offense": 2,
       "defense": 0
@@ -204,6 +217,7 @@
     "type": "Mace",
     "stats": {
       "armorClass": 4,
+      "weaponArmorClass": 0,
       "accuracy": 0,
       "offense": 0,
       "defense": 0
@@ -218,6 +232,7 @@
     "secondaryType": "Twohanded",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 3,
       "offense": 0,
       "defense": 0
@@ -231,6 +246,7 @@
     "type": "Shortsword",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 3,
       "offense": 1,
       "defense": 1
@@ -258,6 +274,7 @@
     "type": "Wand",
     "stats": {
       "armorClass": 0,
+      "weaponArmorClass": 0,
       "accuracy": 0,
       "offense": 0,
       "defense": 0
