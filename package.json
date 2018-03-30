@@ -35,6 +35,7 @@
   },
   "private": true,
   "devDependencies": {
+    "@angular-devkit/core": "^0.4.8",
     "@angular/cli": "1.5.4",
     "@angular/compiler-cli": "5.0.0",
     "@angular/language-service": "5.0.0",
